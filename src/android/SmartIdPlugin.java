@@ -110,7 +110,7 @@ public class SmartIdPlugin extends CordovaPlugin {
                     isProduction
                 );
             } catch (Exception e) {
-                System.err.println("smartCoreOperation method failed: " + ex.getMessage());
+                System.err.println("smartCoreOperation method failed: " + e.getMessage());
             }
         } else {
             System.err.println("Expected non-empty string argument.");

@@ -20,7 +20,7 @@ import SmartId
      let arguments = command.arguments
      var backendDomain: String = ""
 
-     if arguments.count > 0 {
+     if (arguments?.count ?? 0) > 0 {
         backendDomain = String(describing: command.arguments[0])
      }
 

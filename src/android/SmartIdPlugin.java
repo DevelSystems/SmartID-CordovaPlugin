@@ -28,10 +28,9 @@ public class SmartIdPlugin extends CordovaPlugin {
         }
         if (action.equals("startSmartId")) {
             this.startSmartId(callbackContext);
-            return true;
         }
 
-        return false;
+        return true;
     }
 
     private void startSmartId(CallbackContext callbackContext) {

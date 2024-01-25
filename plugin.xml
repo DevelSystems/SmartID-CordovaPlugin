@@ -12,8 +12,6 @@
       </config-file>
       <config-file parent="/*" target="AndroidManifest.xml" />
       <source-file src="src/android/SmartIdPlugin.java" target-dir="src/com/develsystems/smartidplugin/SmartIdPlugin" />
-      <framework src="com.fasterxml.jackson.core:jackson-core:2.10.3" />
-      <framework src="com.fasterxml.jackson.core:jackson-databind:2.10.3" />
    </platform>
    <platform name="ios">
       <config-file parent="/*" target="config.xml">

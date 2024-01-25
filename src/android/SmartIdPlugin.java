@@ -45,10 +45,14 @@ public class SmartIdPlugin extends CordovaPlugin {
                 .getInstance()
                 .GetRawData(context, backendDomain)
                 .onSuccess((time, response) -> {
-                    JSONObject json = new JSONObject();
-                    json.put("data", response);
+                    try {
+                        JSONObject json = new JSONObject();
+                        json.put("data", response);
 
-                    callbackContext.success(json);
+                        callbackContext.success(json);
+                    } catch (Exception exception) {
+                        callbackContext.error(exception.getMessage());
+                    }
                 })
                 .onFailure((time, message, errorCode) -> {
                     callbackContext.error(message + " - " + message);

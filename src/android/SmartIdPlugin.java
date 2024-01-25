@@ -39,13 +39,13 @@ public class SmartIdPlugin extends CordovaPlugin {
     }
 
     private void getRawData(String backendDomain, CallbackContext callbackContext) {
-        final Context context = this.cordova.getActivity().getApplicationContext();
+        Context context = this.cordova.getActivity().getApplicationContext();
 
         SmartId
                 .getInstance()
                 .GetRawData(context, backendDomain)
                 .onSuccess((time, response) -> {
-                    final JSONObject json = new new JSONObject();
+                    JSONObject json = new JSONObject();
                     json.put("data", response);
 
                     callbackContext.success(json);

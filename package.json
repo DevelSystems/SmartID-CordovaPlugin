@@ -1,22 +1,12 @@
 {
-  "name": "com.develsystems.smartidplugin",
-  "version": "0.0.1",
-  "description": "cordova smartid plugin",
+  "name": "cordova-plugin-smartid",
+  "version": "1.1.1",
   "cordova": {
-    "id": "com.develsystems.smartidplugin",
+    "id": "cordova-plugin-smartid",
     "platforms": [
       "android",
       "ios"
     ]
   },
-  "keywords": [
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
-  ],
-  "author": "Alejandro Ramirez",
-  "license": "ISC",
-  "dependencies": {
-    "cordova-plugin-add-swift-support": "^2.0.2"
-  }
+  "description": "Plugin para utilizar sdk de smartid"
 }

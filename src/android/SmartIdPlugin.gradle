@@ -1,0 +1,10 @@
+repositories{
+    jcenter()
+    maven {
+        url 'https://mymavenrepo.com/repo/QvbvVwD6dkSIjyZH38NO/'
+        credentials {
+            username 'reader'
+            password '745dLtpSqRtGKhkP'
+        }
+    }
+}

@@ -27,6 +27,10 @@
         <source-file src="src/ios/SmartIdPlugin.swift"/>
 
         <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
-        <framework src="https://github.com/DevelSystems/SmartID-iOS.git" type="podspec" spec="~> 5.0.1"/>
+        <podspec>
+            <pods>
+                <pod name="SmartId" spec="~> 5.0.1" />
+            </pods>
+        </podspec>
     </platform>
 </plugin>

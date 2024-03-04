@@ -29,7 +29,7 @@
         <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
         <podspec>
             <pods>
-                <pod name="SmartId" spec="~> 5.0.1" />
+                <pod name="SmartIdGtc" spec="~> 5.0.1" />
             </pods>
         </podspec>
     </platform>

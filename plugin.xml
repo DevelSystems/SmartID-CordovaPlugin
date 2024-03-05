@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"
-        id="com.develsystems.smartidplugin" version="0.0.1">
+        id="com.develsystems.smartidplugin" version="5.0.0">
     <name>SmartIdPlugin</name>
     <js-module name="SmartIdPlugin" src="www/SmartIdPlugin.js">
         <clobbers target="cordova.plugins.SmartIdPlugin"/>
@@ -29,7 +29,7 @@
         <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
         <podspec>
             <pods>
-                <pod name="SmartIdGtc" spec="~> 5.0.3" />
+                <pod name="SmartIdGtc" spec="~> 5.0.4" />
             </pods>
         </podspec>
     </platform>

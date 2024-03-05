@@ -1,6 +1,6 @@
 {
   "name": "com.develsystems.smartidplugin",
-  "version": "0.0.1",
+  "version": "5.0.0",
   "description": "cordova smartid plugin",
   "cordova": {
     "id": "com.develsystems.smartidplugin",

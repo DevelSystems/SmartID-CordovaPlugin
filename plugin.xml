@@ -25,7 +25,7 @@
             </feature>
         </config-file>
         <source-file src="src/ios/SmartIdPlugin.swift"/>
-        <source-file src="src/ios/KeychainAccess.swift" />
+        <source-file src="src/ios/Keychain.swift" />
         <header-file src="src/ios/KeychainAccess.h" />
 
         <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
